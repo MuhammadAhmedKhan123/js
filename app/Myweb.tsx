@@ -33,7 +33,7 @@ function Myweb() {
           <div className=' absolute right-[125px] xs:right-[90px] bg-pink-300 w-60 h-60 rounded-full  blur-[60px]' ></div>
           <div className=' absolute top-[195px] right-[345px] xs:right-[245px] bg-yellow-400 w-24 h-24 rounded-full  blur-[80px] ' ></div>
           <div className=' absolute top-28 right-[125px]  xs:right-[90px] bg-sky-200 w-52 h-52 rounded-full  blur-[60px]' ></div>
-          <div className=' absolute right-[125px] sm:right-0 xs:right-[5px]'> <img alt='pic2' src='./pics/pic1.png' ></img></div>
+          <div className=' absolute right-[125px] sm:right-0 xs:right-[5px]'> <img alt='pic2' src='./pics/pic1.png' width={280} ></img></div>
           </div>
 
           <div className='  flex-col ml-3 relative s:top-[450px] xs:top-[450px] top-24  '>
