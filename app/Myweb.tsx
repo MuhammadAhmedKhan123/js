@@ -21,7 +21,7 @@ function Myweb() {
        </div>
     
       <div className='invisible xs:visible  absolute top-[-25px] left-[305px] w-7'>
-          <img src='./pics/menu.png' width={64}>
+          <img alt='pic1' src='./pics/menu.png' width={64}>
           </img>
       </div>
       </div>
@@ -33,7 +33,7 @@ function Myweb() {
           <div className=' absolute right-[125px] xs:right-[90px] bg-pink-300 w-60 h-60 rounded-full  blur-[60px]' ></div>
           <div className=' absolute top-[195px] right-[345px] xs:right-[245px] bg-yellow-400 w-24 h-24 rounded-full  blur-[80px] ' ></div>
           <div className=' absolute top-28 right-[125px]  xs:right-[90px] bg-sky-200 w-52 h-52 rounded-full  blur-[60px]' ></div>
-          <div className=' absolute right-[125px] sm:right-0 xs:right-[5px]'> <img src='./pics/pic1.png'></img></div>
+          <div className=' absolute right-[125px] sm:right-0 xs:right-[5px]'> <img alt='pic2' src='./pics/pic1.png' width={700}></img></div>
           </div>
 
           <div className='  flex-col ml-3 relative s:top-[450px] xs:top-[450px] top-24  '>
@@ -44,7 +44,7 @@ function Myweb() {
             </div>
             <div className='  xs:pr-3 text-justify pt-2  s:w-[470px] sm:w-[400px] md:w-[500px] lg:w-[600px]'>
             <p>
-            JS Academy's web development certification training is curated by top industry experts and designed to meet industry benchmarks. This course helps you learn how to create impressive websites using HTML5, CSS3, Twitter Bootstrap 3, jQuery, and Google APIs and deploy it to Amazon Simple Storage Service (S3). Earn a Web Developer certificate post completion of this Online Web Developer training Course and is suitable for beginners, intermediate, and experienced professionals.
+            JS Academy&apos;s web development certification training is curated by top industry experts and designed to meet industry benchmarks. This course helps you learn how to create impressive websites using HTML5, CSS3, Twitter Bootstrap 3, jQuery, and Google APIs and deploy it to Amazon Simple Storage Service (S3). Earn a Web Developer certificate post completion of this Online Web Developer training Course and is suitable for beginners, intermediate, and experienced professionals.
             </p>
             </div>
           </div>
@@ -63,12 +63,12 @@ function Myweb() {
           <div className=' flex '>
             
         <div className='  m-4 relative xs:top-[680px] s:top-[680px] top-96 sm:left-[40px] s:left-[90px] xs:left-[150px] w-[350px] sm:w-[300px] s:w-[300px] xs:w-[270px] h-52   rounded-xl bg-gray-[2] shadow-pink-200 drop-shadow-2xl shadow-2xl    '>
-         <img className=' relative left-28 xs:left-24 md:left-32 top-12' src='./pics/next.png' width={100}></img>
+         <img alt='pic3' className=' relative left-28 xs:left-24 md:left-32 top-12' src='./pics/next.png' width={100}></img>
          <p className=' text-center mt-14 '> Creating website using Nextjs</p>
         </div>
         
         <div className=' m-4  relative top-96 xs:top-[980px] s:top-[980px] sm:top-[680px] sm:left-[-40px] s:left-[-90px] xs:left-[-150px]  w-[350px] sm:w-[300px] s:w-[300px] xs:w-[270px] h-52   rounded-xl bg-gray-[2] shadow-sky-200 drop-shadow-2xl shadow-2xl    '>
-        <img className=' relative left-28 xs:left-12 s:left-16 sm:left-16  md:left-24 top-0' src='./pics/amazon.png' width={180}></img>
+        <img alt='pic4' className=' relative left-28 xs:left-12 s:left-16 sm:left-16  md:left-24 top-0' src='./pics/amazon.png' width={180}></img>
         <p className=' text-center mt-[-59px]'>  Deploying website to Amazon S2</p>
         </div>
         
@@ -81,12 +81,12 @@ function Myweb() {
           <div className=' flex '>
             
         <div className=' m-4 relative xs:top-[680px] s:top-[680px] top-96 sm:left-[40px] s:left-[90px] xs:left-[150px] w-[350px] sm:w-[300px] s:w-[300px] xs:w-[270px] h-52   rounded-xl bg-gray-[2] shadow-yellow-200 drop-shadow-2xl shadow-2xl    '>
-        <img className=' relative left-28 xs:left-4 s:left-10 sm:left-10 md:left-16 top-5' src='./pics/tailwind.png' width={220}></img>
+        <img alt='pic5' className=' relative left-28 xs:left-4 s:left-10 sm:left-10 md:left-16 top-5' src='./pics/tailwind.png' width={220}></img>
         <p className=' text-center mt-[-15px]'>Styling web pages using Tailwind CSS</p>
         </div>
         
         <div className=' m-4  relative top-96 xs:top-[980px] s:top-[980px] sm:top-[680px] sm:left-[-40px] s:left-[-90px] xs:left-[-150px]  w-[350px] sm:w-[300px] s:w-[300px] xs:w-[270px] h-52   rounded-xl bg-gray-[2] shadow-purple-200 drop-shadow-2xl shadow-2xl    '>
-        <img className=' relative left-28 xs:left-16 s:left-[80px] sm:left-20 md:left-[105px] top-[65px]' src='./pics/typescript.png' width={140}></img>
+        <img alt='pic6' className=' relative left-28 xs:left-16 s:left-[80px] sm:left-20 md:left-[105px] top-[65px]' src='./pics/typescript.png' width={140}></img>
         <p className=' text-center mt-[75px]'> TypeScript programming</p>
         </div>
         
@@ -104,7 +104,7 @@ function Myweb() {
           <div className=' absolute s:top-[120px] sm:top-[120px] md:top-[70px] lg:top-[70px] s:left-[175px] bg-purple-400 w-52 h-52 rounded-full  blur-[80px] ' ></div>
           <div className=' absolute xs:top-[-110px] sm:top-[-120px] md:top-[-70px]  lg:top-[-70px]  s:left-[185px] xs:left-[185px] bg-sky-200 w-52 h-52 rounded-full  blur-[60px]' ></div>
             <div className='relative left-28 sm:left-12 xs:left-20 s:left-48 w-96'>
-              <img src='./pics/pic2.png' width={250}>
+              <img alt='pic7' src='./pics/pic2.png' width={250}>
               </img>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Myweb() {
             The Outcome for Participants of the Program
             </h1>
             <p className=' xs:text-left text-center pt-2'>
-            As a graduate of this program, you will own valuable products such as Full-Stack App Templates, AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity to offer your services at a rate of $50 per hour, providing a path to financial stability while contributing to the growth of Pakistan's software exports.
+            As a graduate of this program, you will own valuable products such as Full-Stack App Templates, AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have the opportunity to offer your services at a rate of $50 per hour, providing a path to financial stability while contributing to the growth of Pakistan&apos;s software exports.
             </p>
           </div>
           </div>
@@ -131,7 +131,7 @@ function Myweb() {
           <div className=' absolute xs:top-[-100px] s:top-[-100px] sm:top-[200px]  sm:right-[100px] md:top-[-100px] lg:top-[-100px] lg:right-52 md:right-80 bg-sky-200 w-52 h-52 rounded-full  blur-[60px]' ></div>
           <div className=' absolute xs:right-40 s:right-40 sm:top-20 sm:right-96 md:top-16 lg:top-16  md:right-[50px]  lg:right-[120px] bg-yellow-200 w-52 h-52 rounded-full  blur-[60px] sm:blur-[80px]' ></div>
           <div>
-            <img src='./pics/pic3.png' width={250}></img>
+            <img alt='pic8' src='./pics/pic3.png' width={250}></img>
           </div>
         </div>
          
